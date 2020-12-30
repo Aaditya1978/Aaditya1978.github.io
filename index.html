@@ -15,7 +15,7 @@
     <meta property="og:title" content="Aaditya's Portfolio">
     <meta property="og:description" content="This is my Portfolio">
     <meta property="og:url" content="https://aaditya1978.github.io/">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="https://aaditya1978.github.io/static/images/logo.png">
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -28,6 +28,7 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="static/css/style.css">
+
 </head>
 
 <body>
@@ -69,6 +70,9 @@
                 <a href="#projects" class="nav-link">Projects</a>
             </li>
             </ul>
+            <div class="switch">Dark mode:
+                <span class="inner-switch">OFF</span>
+            </div>
             <a class="btn btn-primary px-2 py-1 resume mb-1" href="static/files/AADITYA_Resume.pdf" target="_blank">Resume</a>
         </div>
         </div>
@@ -82,6 +86,7 @@
         <div class="row no-gutters slider-text justify-content-center align-items-center" style="height: 100vh;">
             <div class="col-lg-8 col-md-6 d-flex align-items-center" data-aos="zoom-in" data-aos-duration="1000"
             data-aos-easing="linear">
+            <img src="static/images/my_image.jpg" height="400px" style="border-radius: 100%;">
             <div class="text text-center">
                 <span class="subheading">Hi! My name is</span>
                 <h1>Aaditya Singhal</h1>
@@ -125,15 +130,21 @@
                     <i data-eva="github" data-eva-animation="pulse" data-eva-fill="black"></i>
                     </a>
                 </li>
+                <li class="list-inline-item pt-0 ml-2"> <a href="https://www.kaggle.com/aadityasinghal" target="_blank">
+                    <img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" height="28px" width="28px" style="border-radius: 50%;background-color:rgb(238, 237, 237)" alt="">
+                    </a>
+                </li>
                 </ul>
-                <a class="list-inline-item pt-0 ml-0" href="mailto:aadityasinghal1978@gmail.com" target="_blank"><h5>Mail Me</h5></a>
+                <a class="list-inline-item pt-0 ml-0" data-eva-animation="pulse" data-eva-fill="black" href="mailto:aadityasinghal1978@gmail.com" target="_blank"><h5>Mail Me</h5></a>
             </div>
             </div>
         </div>
         </div>
     </section>
+
     <br>
     <br>
+
     <!-- SKILLS SECTION -->
     <section id="skills">
         <div class="container px-2 py-3">
@@ -154,10 +165,36 @@
             </div>
             </div>
             <div class="col-md-6 order-sm-2 order-1">
-            </div>
+                <h1 data-aos="zoom-in" data-aos-duration="1200">Programming Proficiency</h1>
+                <br>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">Python <a href="https://cdnlogo.com/logo/python_358.html"><img src="https://cdn.cdnlogo.com/logos/p/3/python.svg" height="30px" width="30px"></a></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="python">80%</div>
+                </div>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">C <img src="https://img.icons8.com/color/48/000000/c-programming.png" height="30px" width="30px"/></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="c">80%</div>
+                </div>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">Machine Learning <img src="https://img.icons8.com/clouds/48/000000/learning.png" height="40px" width="40px"/></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="ml">70%</div>
+                </div>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">HTML <a href="https://cdnlogo.com/logo/html-5_8516.html"><img src="https://cdn.cdnlogo.com/logos/h/90/html-5.svg"  height="30px" width="30px"></a></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="html">70%</div>
+                </div>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">CSS <img src="https://img.icons8.com/color/48/000000/css3.png" height="30px" width="30px"/></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="css">70%</div>
+                </div>
+                <h5 data-aos="zoom-in" data-aos-duration="1200">C++ <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" height="30px" width="30px"/></h5>
+                <div data-aos="zoom-in" data-aos-duration="1200" class="container">
+                <div data-aos="zoom-in" data-aos-duration="1200" class="cpp">60%</div>
+                </div>
         </div>
         </div>
     </section>
+
     <!-- EDUCATION SECTION -->
     <section id="education">
         <div class="container px-2 py-4">
@@ -188,7 +225,9 @@
         </div>
         </div>
     </section>
+
     <br><br>
+
     <!-- Experience SECTION -->
     <section id="experience">
         <div class="container px-2 pt-2">
@@ -228,6 +267,7 @@
 
 
     <!-- JS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -239,6 +279,18 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="static/js/active-menu-link.js"></script>
     <script src="static/js/main.js"></script>
+
+    <script>
+        $( ".inner-switch" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".inner-switch" ).text( "OFF" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".inner-switch" ).text( "ON" );
+            }
+        });
+    </script>
 
     </body>
 
