@@ -31,10 +31,19 @@ body {
   padding: 0.1875rem;
   margin-left: 0.3125rem;
 }
-.dark,
-.dark * {
-  
+
+@media (min-width: 576px) {
+  .carousel-item img {
+      width: auto !important;
+      height: 400px;
+      max-height: 400px;
   }
+}
+
+/* .dark,
+.dark * {
+
+  } */
 
 p {
   font-size: 1.1em;
