@@ -15,6 +15,27 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
 }
+
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
+.dark,
+.dark * {
+  
+  }
+
 p {
   font-size: 1.1em;
   font-family: "Open Sans", sans-serif;
@@ -252,6 +273,40 @@ p {
   animation: 1.9s ease infinite wheel-up-down;
   color: #3fd45b;
   font-size: 30px;
+}
+
+.cpp, .c, .python, .html, .css, .ml {
+      text-align: center;
+      font-weight: bolder;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: white;
+      border-radius: 20px;
+      margin-bottom: 7px;
+   }
+   .cpp {
+      width: 60%;
+      background-color: #4caf50;
+   }
+   .c {
+      width: 80%;
+      background-color: #2196f3;
+   }
+   .python {
+      width: 80%;
+      background-color: #f44336;
+   }
+   .html {
+      width: 70%;
+      background-color: #2b5bfa;
+   }
+   .css {
+    width: 70%;
+    background-color: #f33895;
+ }
+ .ml {
+  width: 70%;
+  background-color: #f3c738;
 }
 
 @-webkit-keyframes wheel-up-down {
