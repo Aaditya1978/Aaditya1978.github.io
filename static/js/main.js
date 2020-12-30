@@ -110,7 +110,7 @@ const addCards = document.querySelector(".addCards");
 const Cards = [
   {
     projectName: "Facial Expression Prediction",
-    description: "A upyter notebook for performing facial expression recognization using deep learning techniques.",
+    description: "A Jupyter notebook for performing facial expression recognization using deep learning techniques.",
     htmlUrl: "https://github.com/Aaditya1978/Face_Expression_Prediction",
     htmlUrl2: "https://github.com/Aaditya1978/Face_Expression_Prediction"
   },
