@@ -109,40 +109,28 @@ window.onload = function () {
 const addCards = document.querySelector(".addCards");
 const Cards = [
   {
-    projectName: "Facial Expression Prediction",
-    description: "A Jupyter notebook for performing facial expression recognization using deep learning techniques.",
-    htmlUrl: "https://github.com/Aaditya1978/Face_Expression_Prediction",
-    htmlUrl2: "https://github.com/Aaditya1978/Face_Expression_Prediction"
+    projectName: "Meme Stream (02/2021 - 02/2021)",
+    description: "This is a meme stream web app built withflask as backend and HTML, CSS and JS as frontend. Here user can post his own meme and can view others shared meme. The Project was the part of crio winter of Doing where I Completed to Stage-2 where we had to build this project.",
+    htmlUrl: "https://github.com/Aaditya1978/x-meme-stream",
+    htmlUrl2: "https://x--meme--stream.herokuapp.com/"
   },
   {
-    projectName: "COVID-19 Tweet Prediction",
-    description: "A Web App for the prediction of Tweets realted to COVID-19 by using aNLP based Model",
-    htmlUrl: "https://github.com/Aaditya1978/COVID-19-Tweet-Predictor",
-    htmlUrl2 : "https://covid-19-tweet-predictor.herokuapp.com/"
+    projectName: "Facial Expression Prediction (12/2020 - 01/2021)",
+    description: "This is a GUI Application for recognizing live facial expressions using Tensorflow and OpenCV. Firstly Tensorflow is used to train the model. After that prediction is done using OpenCV. The application is built with Tkinter.",
+    htmlUrl: "https://github.com/Aaditya1978/Facial-Expression-GUI",
+    htmlUrl2 : "https://github.com/Aaditya1978/Facial-Expression-GUI"
   },
   {
-    projectName: "ML Automator (Team Project) (08/2020 - Present)",
+    projectName: "ML Automator (Team Project) (08/2020 - 09/2020)",
     description: "A Web App which provided Feature Engineering Tools, Exploratory Data Analysis, Machine learning model building and training in a very easy and automated way. It was built using Streamlit module",
     htmlUrl: "https://github.com/Ayush-Malik/basic_ML_model_building_assistant_for_regression_and_classification_problems",
     htmlUrl2: "https://ml-automator.herokuapp.com/",
   },
   {
-    projectName: "Webapp For Farmers (Team Project) (08/2020 - Present)",
-    description: "This website is designed for farmers with multi-lingual options. Features of our website are : To check weather conditions, Portal to apply for loan and insurance policies. Facility to buy or sell products, Predict the crop and seed diseases",
-    htmlUrl: "https://github.com/abhaydhiman/farm_app",
-    htmlUrl2: "https://github.com/abhaydhiman/farm_app",
-  },
-  {
     projectName: "COVID-19 Sentiment Analysis (Team Project) (06/2020 - 08/2020)",
     description: "A web app for analysis of people’s sentiments during lockdown in India . It provided proper sentiments analysis of peoples during lockdown with having relevant graphs, tables, and plots all of this is further compiled into a attractive user interactive web app",
     htmlUrl: "https://github.com/SmartPracticeschool/Covis",
-    htmlUrl2: "http://covid19sentimentanalyzer-silly-buffalo-si.eu-gb.mybluemix.net/",
-  },
-  {
-    projectName: "Stock Price Prediction (Team Project) (07/2020 - 07/2020)",
-    description: "A Jupyter notebook for performing stock price prediction on the google stock dataset",
-    htmlUrl: "https://github.com/abhaydhiman/stock_predictions",
-    htmlUrl2: "https://github.com/abhaydhiman/stock_predictions",
+    htmlUrl2: "https://github.com/SmartPracticeschool/Covis",
   },
 ];
 
