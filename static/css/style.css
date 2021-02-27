@@ -294,7 +294,7 @@ p {
       margin-bottom: 7px;
    }
    .cpp {
-      width: 60%;
+      width: 70%;
       background-color: #4caf50;
    }
    .c {
@@ -306,11 +306,11 @@ p {
       background-color: #f44336;
    }
    .html {
-      width: 70%;
+      width: 80%;
       background-color: #2b5bfa;
    }
    .css {
-    width: 70%;
+    width: 80%;
     background-color: #f33895;
  }
  .ml {
