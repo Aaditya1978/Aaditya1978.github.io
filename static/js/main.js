@@ -109,6 +109,12 @@ window.onload = function () {
 const addCards = document.querySelector(".addCards");
 const Cards = [
   {
+    projectName: "Sportify- Sports Web App (03/2021 - 04/2021)",
+    description: "This is a sports web app which lets user to get latest information about their favourite sports in detail. The frontend tech used is HTML, CSS, jQuery and Backend Tech Used is Flask. The database was Firebase",
+    htmlUrl: "https://github.com/Aaditya1978/sportify--sports-web-app",
+    htmlUrl2: "https://sportify-sports-web-app.herokuapp.com/"
+  },
+  {
     projectName: "Meme Stream (02/2021 - 02/2021)",
     description: "This is a meme stream web app built withflask as backend and HTML, CSS and JS as frontend. Here user can post his own meme and can view others shared meme. The Project was the part of crio winter of Doing where I Completed to Stage-2 where we had to build this project.",
     htmlUrl: "https://github.com/Aaditya1978/x-meme-stream",
