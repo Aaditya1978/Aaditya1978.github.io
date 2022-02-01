@@ -109,6 +109,12 @@ window.onload = function () {
 const addCards = document.querySelector(".addCards");
 const Cards = [
   {
+    projectName: "Bug Blog (01/2022 - 02/2022)",
+    description: "It's a Blogging Web App built with MERN Stack, where users can create their own blogs and can view and react to others' blogs and share their thoughts with each other.",
+    htmlUrl: "https://github.com/Aaditya1978/Bug-Blog",
+    htmlUrl2: "https://bugblog.netlify.app/"
+  },
+  {
     projectName: "Sportify- Sports Web App (03/2021 - 04/2021)",
     description: "This is a sports web app which lets user to get latest information about their favourite sports in detail. The frontend tech used is HTML, CSS, jQuery and Backend Tech Used is Flask. The database was Firebase",
     htmlUrl: "https://github.com/Aaditya1978/sportify--sports-web-app",
