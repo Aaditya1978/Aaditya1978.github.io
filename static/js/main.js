@@ -109,6 +109,18 @@ window.onload = function () {
 const addCards = document.querySelector(".addCards");
 const Cards = [
   {
+    projectName: "Code Club (12/2021 - 02/2022)",
+    description: "A web application for making E-Learning Accessible.\
+    Supports Code Editor. Tracking of various competitions\
+    and hackathons Admin Page for adding and updating\
+    courses\
+    The frontend tech used is - React, Bootstrap\
+    Backend Tech Used is - Express.\
+    The database is MongoDB.",
+    htmlUrl: "https://github.com/Aaditya1978/E-Learning-Platform",
+    htmlUrl2: "https://code-clubs.netlify.app/"
+  },
+  {
     projectName: "Bug Blog (01/2022 - 02/2022)",
     description: "It's a Blogging Web App built with MERN Stack, where users can create their own blogs and can view and react to others' blogs and share their thoughts with each other.",
     htmlUrl: "https://github.com/Aaditya1978/Bug-Blog",
@@ -131,12 +143,6 @@ const Cards = [
     description: "This is a GUI Application for recognizing live facial expressions using Tensorflow and OpenCV. Firstly Tensorflow is used to train the model. After that prediction is done using OpenCV. The application is built with Tkinter.",
     htmlUrl: "https://github.com/Aaditya1978/Facial-Expression-GUI",
     htmlUrl2 : "https://github.com/Aaditya1978/Facial-Expression-GUI"
-  },
-  {
-    projectName: "ML Automator (Team Project) (08/2020 - 09/2020)",
-    description: "A Web App which provided Feature Engineering Tools, Exploratory Data Analysis, Machine learning model building and training in a very easy and automated way. It was built using Streamlit module",
-    htmlUrl: "https://github.com/Ayush-Malik/basic_ML_model_building_assistant_for_regression_and_classification_problems",
-    htmlUrl2: "https://ml-automator.herokuapp.com/",
   },
   {
     projectName: "COVID-19 Sentiment Analysis (Team Project) (06/2020 - 08/2020)",
